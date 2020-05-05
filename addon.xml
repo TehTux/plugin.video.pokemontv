@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.pokemontv" version="1.0.0" name="Pokemon TV" provider-name="TehTux">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+  <import addon="script.module.requests" version="2.7.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="de">Kodi Video Plugin für Pokemon TV</summary>
+  <description lang="de">Dies ist ein inoffizielles Video Plugin für Pokemon TV (https://watch.pokemon.com).</description>
+  <language>de</language>
+  <platform>all</platform>
+  <source>https://github.com/TehTux/plugin.video.pokemontv</source>
+  <assets>
+    <icon>resources\icon.png</icon>
+    <fanart>resources\fanart.jpg</fanart>
+    <screenshot>resources\screen-01.jpg</screenshot>
+    <screenshot>resources\screen-02.jpg</screenshot>
+    <screenshot>resources\screen-03.jpg</screenshot>    
+  </assets>
+  <news></news>
+</extension>
+</addon>
