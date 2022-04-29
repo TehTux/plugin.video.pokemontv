@@ -1,8 +1,7 @@
 # coding=utf-8
 import sys
 from datetime import datetime
-from urllib import urlencode
-from urlparse import parse_qsl
+from urllib.parse import urlencode, parse_qsl
 import requests
 import xbmcgui
 import xbmcplugin
